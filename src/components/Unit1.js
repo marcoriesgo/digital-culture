@@ -22,11 +22,11 @@ class Unit1 extends Component {
                 <p className="resources-section-content">Topic</p>
                 
                 <h2 className="resources-section-header">Coggle Mind Map</h2>
-                <p className="resources-section-content">Topic</p>
-                
+                <p className="resources-section-content">To view more information about Unit 1 and explore other concepts about digital culture, please click on the Coggle link below.</p>                
+                <a href="https://coggle.it/diagram/X1bGwr2x3ka7jkx7/t/capstone-project-map-critical-consumption/4cc0fcf3532e715c6cfc5e21090eb11f9324505bf7c111e7d61fce8f8e3544c8" target="_blank" className="resources-section-content">View Marco's Mind Map on Coggle</a>
                 <h2 className="resources-section-header">Contact</h2>
                 <p className="resources-section-content">Please make sure to contact me if you want to delve deeper into the topic of critical consumption. I am always happy to discuss new ideas!</p>
-                <a href = "mailto: marco.riesgo.almonacid@live.com" className="resources-section-content">marco.riesgo.almonacid@live.com</a>
+                <a href = "mailto: mriesgo@sas.upenn.edu" className="resources-section-content">mriesgo@sas.upenn.edu</a>
             </div>
         </div>
         <div className="unit1-project-right-container">
