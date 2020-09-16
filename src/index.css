@@ -204,6 +204,7 @@ li {
   margin-top: 0;
   vertical-align: top;
   padding-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .project-header {
@@ -222,14 +223,17 @@ li {
   background-color: rgba(6,57,84,1);
   color: white;
   padding-top: 5px;
+  margin-top: 0;
   padding-bottom: 5px;
   padding-left: 15px;
-  border-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .coggle-frame {
   min-height: 400px;
   padding-left: 12.5%;
+  margin-bottom: 20px;
 }
 
 .article-one {
@@ -261,4 +265,10 @@ li {
 .readings-bottom {
   margin-bottom: 40px;
   padding-left: 15px;
+}
+
+.content-box-container {
+  border: 3px solid rgba(6,57,84,1);
+  border-radius: 15px;
+  margin-bottom: 30px;
 }

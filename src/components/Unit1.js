@@ -49,8 +49,7 @@ class Unit1 extends Component {
                 <h3 className="project-date">September 15, 2020</h3>
             </div>
             <div className="project-right-content-container">
-                <h2 className="project-content-header">Introductory Podcast by Marco</h2>
-
+            <div className="content-box-container">
                 <h2 className="project-content-header">Suggested Readings</h2>
                 <div className="readings-top">
                     <h2>Supporting Articles</h2>
@@ -78,11 +77,18 @@ class Unit1 extends Component {
                         <img src={contrast2} alt="Digital Culture" className="readings-screenshot"/>
                     </div>
                     </div>
-                <h2 className="project-content-header">Personal Reflection</h2>
+                </div>
+
+
+                <div className="content-box-container">
+                    <h2 className="project-content-header">Personal Reflection</h2>
+
+                </div>
                 
-                
-                <h2 className="project-content-header">Coggle Mind Map</h2>
-                <iframe width='75%' height='75%' src='https://embed.coggle.it/diagram/X1bGwr2x3ka7jkx7/4cc0fcf3532e715c6cfc5e21090eb11f9324505bf7c111e7d61fce8f8e3544c8' frameborder='0' className="coggle-frame" allowfullscreen></iframe>
+                <div className="content-box-container">
+                    <h2 className="project-content-header">Coggle Mind Map</h2>
+                    <iframe width='75%' height='75%' src='https://embed.coggle.it/diagram/X1bGwr2x3ka7jkx7/4cc0fcf3532e715c6cfc5e21090eb11f9324505bf7c111e7d61fce8f8e3544c8' frameborder='0' className="coggle-frame" allowfullscreen></iframe>
+                </div>
             </div>
 
 
