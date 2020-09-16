@@ -211,3 +211,54 @@ li {
   padding-top: 20px;
   margin-bottom: 0;
 }
+
+.project-right-content-container {
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.project-content-header {
+  background-color: rgba(6,57,84,1);
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  border-radius: 10px;
+}
+
+.coggle-frame {
+  min-height: 400px;
+  padding-left: 12.5%;
+}
+
+.article-one {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.article-two {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.article-link {
+  color: rgba(6,57,84,1);
+}
+
+.readings-screenshot {
+  width: 90%;
+  height: auto;
+  margin-left: 0;
+}
+
+.readings-top {
+  margin-bottom: 40px;
+  padding-left: 15px;
+}
+.readings-bottom {
+  margin-bottom: 40px;
+  padding-left: 15px;
+}

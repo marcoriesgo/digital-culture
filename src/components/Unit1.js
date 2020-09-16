@@ -2,6 +2,11 @@ import React, { Component } from "react";
 
 import article1 from "../img/article1.png";
 
+import supporting1 from "../img/supporting1.png";
+import supporting2 from "../img/supporting1.png";
+
+import contrast1 from "../img/contrast1.png";
+import contrast2 from "../img/contrast2.png";
 
 class Unit1 extends Component {
   render() {
@@ -43,6 +48,44 @@ class Unit1 extends Component {
                 <h2>Blended Response Project <span style={{color: 'rgba(6,57,84,1)'}}>- Unit 1</span> </h2>
                 <h3 className="project-date">September 15, 2020</h3>
             </div>
+            <div className="project-right-content-container">
+                <h2 className="project-content-header">Introductory Podcast by Marco</h2>
+
+                <h2 className="project-content-header">Suggested Readings</h2>
+                <div className="readings-top">
+                    <h2>Supporting Articles</h2>
+                    <div className="article-one">
+                        <a href="https://fortune.com/2016/02/03/nicholas-carr-internet/" target="_blank" className="article-link">The Internet Makes Us Stupid and Here's Why</a> <br />
+                        <p className="author-name">By Kabir Sehgal</p>
+                        <img src={supporting1} alt="Digital Culture" className="readings-screenshot"/>
+                    </div>
+                    <div className="article-two">
+                        <a href="https://hightechforum.org/the-internet-is-making-us-stupid/" target="_blank" className="article-link">The Internet is Making Us Stupid</a> <br />
+                        <p className="author-name">By Richard Bennett</p>
+                        <img src={supporting2} alt="Digital Culture" className="readings-screenshot"/>
+                    </div>
+                </div>
+                <div className="readings-bottom">
+                    <h2>Contrasting Articles</h2>
+                    <div className="article-one">
+                        <a href="https://www.discovermagazine.com/mind/how-google-is-making-us-smarter" target="_blank" className="article-link">How Google Is Making Us Smarter</a> <br />
+                        <p className="author-name">By Carl Zimmer</p>
+                        <img src={contrast1} alt="Digital Culture" className="readings-screenshot"/>
+                    </div>
+                    <div className="article-two">
+                        <a href="https://www.pbs.org/newshour/science/will-google-make-us-smarter-internet-experts-say-yes-in-some-ways" target="_blank" className="article-link">Will Google Make Us Smarter? Internet Experts Say Yes, but With Caveats</a> <br />
+                        <p className="author-name">By an anonymous author.</p>
+                        <img src={contrast2} alt="Digital Culture" className="readings-screenshot"/>
+                    </div>
+                    </div>
+                <h2 className="project-content-header">Personal Reflection</h2>
+                
+                
+                <h2 className="project-content-header">Coggle Mind Map</h2>
+                <iframe width='75%' height='75%' src='https://embed.coggle.it/diagram/X1bGwr2x3ka7jkx7/4cc0fcf3532e715c6cfc5e21090eb11f9324505bf7c111e7d61fce8f8e3544c8' frameborder='0' className="coggle-frame" allowfullscreen></iframe>
+            </div>
+
+
         </div>
       </div>
     );
