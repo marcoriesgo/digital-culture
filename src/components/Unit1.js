@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+import article1 from "../img/article1.png";
 
 
 class Unit1 extends Component {
@@ -10,29 +11,38 @@ class Unit1 extends Component {
             <div className="resources-content-container">
                 <h1 className="resources-title">Reading Resources</h1>
                 <h2 className="resources-section-header">Topic</h2>
-                <p className="resources-section-content">Topic</p>
-                
-                <h2 className="resources-section-header">Supporting Articles</h2>
-                <p className="resources-section-content">Topic</p>
-                
-                <h2 className="resources-section-header">Contrasting Articles</h2>
-                <p className="resources-section-content">Topic</p>
+                <p className="resources-section-content">In this unit, we took some time to explore the topic of critical digital consumption. In Nicholas Carr's article "Is Google Making Us Stupid?" in <span style={{fontStyle: 'italic'}}>The Atlantic</span>, he writes about the ways in which new technologies are affecting people's consumption of new information. In this project, we reflect upon Carr's ideas, present supporting and contrasting evidence, and draw a conclusion about how we can make critical consumption benefit us online.</p>
+                <img src={article1} alt="Digital Culture" className="article-screenshot"/><br />
+                <a href="https://www.theatlantic.com/magazine/archive/2008/07/is-google-making-us-stupid/306868/" target="_blank" className="resource-link">Click here to read the article.</a>
                 
                 <h2 className="resources-section-header">Questions to Consider</h2>
-                <p className="resources-section-content">Topic</p>
+                <ul>
+                    <li>Why is it important for us to understand the digital tools we use online and the effect they have on our well-being? </li>
+                    <li>How do we evaluate the quality of the content that we consume online?</li>
+                    <li>How is technology changing the ways in which we communicate with each other and how is it impacting those social interactions?</li>
+                    <li>What are some ways in which educators can incorporate technology into their courses while ensuring the high  standard of the content students are exposed to?</li>
+                    <li>How can we ensure that future generations grow up with the ability to read carefully and absorb quality information?</li>
+                </ul>
                 
                 <h2 className="resources-section-header">Coggle Mind Map</h2>
                 <p className="resources-section-content">To view more information about Unit 1 and explore other concepts about digital culture, please click on the Coggle link below.</p>                
-                <a href="https://coggle.it/diagram/X1bGwr2x3ka7jkx7/t/capstone-project-map-critical-consumption/4cc0fcf3532e715c6cfc5e21090eb11f9324505bf7c111e7d61fce8f8e3544c8" target="_blank" className="resources-section-content">View Marco's Mind Map on Coggle</a>
+                <a href="https://coggle.it/diagram/X1bGwr2x3ka7jkx7/t/capstone-project-map-critical-consumption/4cc0fcf3532e715c6cfc5e21090eb11f9324505bf7c111e7d61fce8f8e3544c8" target="_blank" className="resource-link">View Marco's Mind Map on Coggle</a>
                 <h2 className="resources-section-header">Contact</h2>
                 <p className="resources-section-content">Please make sure to contact me if you want to delve deeper into the topic of critical consumption. I am always happy to discuss new ideas!</p>
-                <a href = "mailto: mriesgo@sas.upenn.edu" className="resources-section-content">mriesgo@sas.upenn.edu</a>
+                <a href = "mailto: mriesgo@sas.upenn.edu" className="resource-link">mriesgo@sas.upenn.edu</a>
             </div>
         </div>
+
+
+
+
+
         <div className="unit1-project-right-container">
-            <h1>Critical Consumption</h1>
-            <h2 className="">Blended Response Project <span style={{color: 'rgba(6,57,84,1)'}}>- Unit 1</span> </h2>
-            <h3 className="project-date">September 15, 2020</h3>
+            <div className="project-right-heading">
+                <h1 className="project-header">Critical Consumption</h1>
+                <h2>Blended Response Project <span style={{color: 'rgba(6,57,84,1)'}}>- Unit 1</span> </h2>
+                <h3 className="project-date">September 15, 2020</h3>
+            </div>
         </div>
       </div>
     );
