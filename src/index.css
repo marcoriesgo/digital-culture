@@ -144,7 +144,7 @@ a:hover {
   display: inline-block;
   background-color: rgba(6,57,84,1);
   vertical-align: top;
-  min-height: 100vh;
+  min-height: 330vh;
   color: white;
   padding-bottom: 5vh;
 }
@@ -271,4 +271,20 @@ li {
   border: 3px solid rgba(6,57,84,1);
   border-radius: 15px;
   margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+
+.coggle-intro {
+  padding-left: 10%;
+  padding-right: 10%;
+  line-height: 30px;
+}
+
+
+.personal-reflection-content {
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  line-height: 30px;
 }
