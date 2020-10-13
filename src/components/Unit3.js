@@ -12,43 +12,7 @@ class Unit3 extends Component {
   render() {
     return (
       <div className="unit-parent-container-one">
-        <div className="unit1-project-left-container">
-            <div className="resources-content-container">
-                <h1 className="resources-title">Reading Resources</h1>
-                <h2 className="resources-section-header">Topic</h2>
-                <p className="resources-section-content">In unit 3, we took some time to explore the topic of critical digital consumption. In Nicholas Carr's article "Is Google Making Us Stupid?" in <span style={{fontStyle: 'italic'}}>The Atlantic</span>, he writes about the ways in which new technologies are affecting people's consumption of new information. In this project, we reflect upon Carr's ideas, present supporting and contrasting evidence, and draw a conclusion about how we can make critical consumption benefit us online.</p>
-                <img src={article1} alt="Digital Culture" className="article-screenshot"/><br />
-                <a href="https://www.theatlantic.com/magazine/archive/2008/07/is-google-making-us-stupid/306868/" target="_blank" className="resource-link">Click here to read the article.</a>
-                
-                <h2 className="resources-section-header">Questions to Consider</h2>
-                <ul>
-                    <li>Why is it important for us to understand the digital tools we use online and the effect they have on our well-being? </li>
-                    <li>How do we evaluate the quality of the content that we consume online?</li>
-                    <li>How is technology changing the ways in which we communicate with each other and how is it impacting those social interactions?</li>
-                    <li>What are some ways in which educators can incorporate technology into their courses while ensuring the high  standard of the content students are exposed to?</li>
-                    <li>How can we ensure that future generations grow up with the ability to read carefully and absorb quality information?</li>
-                </ul>
-                
-                <h2 className="resources-section-header">Coggle Mind Map</h2>
-                <p className="resources-section-content">To learn more information about Unit 3 and explore other ideas about software development education in the United States, please click on the Coggle link below.</p>                
-                <a href="https://coggle.it/diagram/X1bGwr2x3ka7jkx7/t/capstone-project-map-critical-consumption/4cc0fcf3532e715c6cfc5e21090eb11f9324505bf7c111e7d61fce8f8e3544c8" target="_blank" className="resource-link">View Marco's Mind Map on Coggle</a>
-                
-                <h2 className="resources-section-header">Apps for Learning to Code </h2>
-                <ul>
-                    <a href = "https://www.udacity.com/" target="_blank" className="app-link">Udacity</a>
-                    <a href = "https://www.udemy.com/" target="_blank" className="app-link">Udemy</a>
-                    <a href = "https://codehubplatform.github.io/" target="_blank" className="app-link">Codehub</a>
-                    <a href = "https://www.programming-hero.com/" target="_blank" className="app-link">Programming Hero</a>
-                    <a href = "https://www.sololearn.com/" target="_blank" className="app-link">Sololearn</a>
-                </ul>
-                
-                <h2 className="resources-section-header">Contact</h2>
-                <p className="resources-section-content">Interested in learning even more about the current state of coding education? I am always happy to discuss new ideas about the future of coding education. Feel free to reach out to me at the link below!</p>
-                <a href = "mailto: mriesgo@sas.upenn.edu" className="resource-link">mriesgo@sas.upenn.edu</a>
-
-                
-            </div>
-        </div>
+        
 
 
 
@@ -107,9 +71,48 @@ class Unit3 extends Component {
                     <iframe width='75%' height='75%' src='https://embed.coggle.it/diagram/X1bGwr2x3ka7jkx7/4cc0fcf3532e715c6cfc5e21090eb11f9324505bf7c111e7d61fce8f8e3544c8' frameborder='0' className="coggle-frame" allowfullscreen></iframe>
                 </div>
             </div>
-
-
         </div>
+
+        <div className="unit1-project-left-container">
+            <div className="resources-content-container">
+                <h1 className="resources-title">Reading Resources</h1>
+                <h2 className="resources-section-header">Topic</h2>
+                <p className="resources-section-content">In unit 3, we took some time to explore the topic of critical digital consumption. In Nicholas Carr's article "Is Google Making Us Stupid?" in <span style={{fontStyle: 'italic'}}>The Atlantic</span>, he writes about the ways in which new technologies are affecting people's consumption of new information. In this project, we reflect upon Carr's ideas, present supporting and contrasting evidence, and draw a conclusion about how we can make critical consumption benefit us online.</p>
+                <img src={article1} alt="Digital Culture" className="article-screenshot"/><br />
+                <a href="https://www.theatlantic.com/magazine/archive/2008/07/is-google-making-us-stupid/306868/" target="_blank" className="resource-link">Click here to read the article.</a>
+                
+                <h2 className="resources-section-header">Questions to Consider</h2>
+                <ul>
+                    <li>Why is it important for us to understand the digital tools we use online and the effect they have on our well-being? </li>
+                    <li>How do we evaluate the quality of the content that we consume online?</li>
+                    <li>How is technology changing the ways in which we communicate with each other and how is it impacting those social interactions?</li>
+                    <li>What are some ways in which educators can incorporate technology into their courses while ensuring the high  standard of the content students are exposed to?</li>
+                    <li>How can we ensure that future generations grow up with the ability to read carefully and absorb quality information?</li>
+                </ul>
+                
+                <h2 className="resources-section-header">Coggle Mind Map</h2>
+                <p className="resources-section-content">To learn more information about Unit 3 and explore other ideas about software development education in the United States, please click on the Coggle link below.</p>                
+                <a href="https://coggle.it/diagram/X1bGwr2x3ka7jkx7/t/capstone-project-map-critical-consumption/4cc0fcf3532e715c6cfc5e21090eb11f9324505bf7c111e7d61fce8f8e3544c8" target="_blank" className="resource-link">View Marco's Mind Map on Coggle</a>
+                
+                <h2 className="resources-section-header">Apps for Learning to Code </h2>
+                <ul>
+                    <a href = "https://www.udacity.com/" target="_blank" className="app-link">Udacity</a> <br />
+                    <a href = "https://www.udemy.com/" target="_blank" className="app-link">Udemy</a><br />
+                    <a href = "https://codehubplatform.github.io/" target="_blank" className="app-link">Codehub</a><br />
+                    <a href = "https://www.programming-hero.com/" target="_blank" className="app-link">Programming Hero</a><br />
+                    <a href = "https://www.sololearn.com/" target="_blank" className="app-link">Sololearn</a>
+                </ul>
+                
+                <h2 className="resources-section-header">Contact</h2>
+                <p className="resources-section-content">Interested in learning even more about the current state of coding education? I am always happy to discuss new ideas about the future of coding education. Feel free to reach out to me at the link below!</p>
+                <a href = "mailto: mriesgo@sas.upenn.edu" className="resource-link">mriesgo@sas.upenn.edu</a>
+
+                
+            </div>
+        </div>
+
+
+
       </div>
     );
   }
