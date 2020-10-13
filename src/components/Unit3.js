@@ -35,6 +35,15 @@ class Unit3 extends Component {
                 <h2 className="resources-section-header">Contact</h2>
                 <p className="resources-section-content">Interested in learning even more about the current state of coding education? I am always happy to discuss new ideas about the future of coding education. Feel free to reach out to me at the link below!</p>
                 <a href = "mailto: mriesgo@sas.upenn.edu" className="resource-link">mriesgo@sas.upenn.edu</a>
+
+                <h2 className="resources-section-header">Apps for Learning to Code </h2>
+                <ul>
+                    <a href = "https://www.udacity.com/" target="_blank" className="resource-link">Udacity</a>
+                    <a href = "https://www.udemy.com/" target="_blank" className="resource-link">Udemy</a>
+                    <a href = "https://codehubplatform.github.io/" target="_blank" className="resource-link">Codehub</a>
+                    <a href = "https://www.programming-hero.com/" target="_blank" className="resource-link">Programming Hero</a>
+                    <a href = "https://www.sololearn.com/" target="_blank" className="resource-link">Sololearn</a>
+                </ul>
             </div>
         </div>
 
