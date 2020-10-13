@@ -32,18 +32,21 @@ class Unit3 extends Component {
                 <h2 className="resources-section-header">Coggle Mind Map</h2>
                 <p className="resources-section-content">To learn more information about Unit 3 and explore other ideas about software development education in the United States, please click on the Coggle link below.</p>                
                 <a href="https://coggle.it/diagram/X1bGwr2x3ka7jkx7/t/capstone-project-map-critical-consumption/4cc0fcf3532e715c6cfc5e21090eb11f9324505bf7c111e7d61fce8f8e3544c8" target="_blank" className="resource-link">View Marco's Mind Map on Coggle</a>
+                
+                <h2 className="resources-section-header">Apps for Learning to Code </h2>
+                <ul>
+                    <a href = "https://www.udacity.com/" target="_blank" className="app-link">Udacity</a>
+                    <a href = "https://www.udemy.com/" target="_blank" className="app-link">Udemy</a>
+                    <a href = "https://codehubplatform.github.io/" target="_blank" className="app-link">Codehub</a>
+                    <a href = "https://www.programming-hero.com/" target="_blank" className="app-link">Programming Hero</a>
+                    <a href = "https://www.sololearn.com/" target="_blank" className="app-link">Sololearn</a>
+                </ul>
+                
                 <h2 className="resources-section-header">Contact</h2>
                 <p className="resources-section-content">Interested in learning even more about the current state of coding education? I am always happy to discuss new ideas about the future of coding education. Feel free to reach out to me at the link below!</p>
                 <a href = "mailto: mriesgo@sas.upenn.edu" className="resource-link">mriesgo@sas.upenn.edu</a>
 
-                <h2 className="resources-section-header">Apps for Learning to Code </h2>
-                <ul>
-                    <a href = "https://www.udacity.com/" target="_blank" className="resource-link">Udacity</a>
-                    <a href = "https://www.udemy.com/" target="_blank" className="resource-link">Udemy</a>
-                    <a href = "https://codehubplatform.github.io/" target="_blank" className="resource-link">Codehub</a>
-                    <a href = "https://www.programming-hero.com/" target="_blank" className="resource-link">Programming Hero</a>
-                    <a href = "https://www.sololearn.com/" target="_blank" className="resource-link">Sololearn</a>
-                </ul>
+                
             </div>
         </div>
 
