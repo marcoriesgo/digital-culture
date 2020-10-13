@@ -2,6 +2,8 @@ import React, { Component } from "react";
 
 import educationImage from "../img/educationImage.jpg";
 
+import educationPodcast from "../img/educationPodcast.mp3";
+
 class Unit2 extends Component {
   render() {
     return (
@@ -37,7 +39,7 @@ class Unit2 extends Component {
             <div className="content-box-container">
                     <h2 className="project-content-header">Podcast</h2>
                     <audio controls>
-
+                      <source src={educationPodcast} type="audio/mpeg"/>
                     </audio>
             </div>
             <div className="content-box-container">
