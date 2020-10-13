@@ -30,10 +30,10 @@ class Unit3 extends Component {
                 </ul>
                 
                 <h2 className="resources-section-header">Coggle Mind Map</h2>
-                <p className="resources-section-content">To view more information about Unit 1 and explore other concepts about digital culture, please click on the Coggle link below.</p>                
+                <p className="resources-section-content">To learn more information about Unit 3 and explore other ideas about software development education in the United States, please click on the Coggle link below.</p>                
                 <a href="https://coggle.it/diagram/X1bGwr2x3ka7jkx7/t/capstone-project-map-critical-consumption/4cc0fcf3532e715c6cfc5e21090eb11f9324505bf7c111e7d61fce8f8e3544c8" target="_blank" className="resource-link">View Marco's Mind Map on Coggle</a>
                 <h2 className="resources-section-header">Contact</h2>
-                <p className="resources-section-content">Please make sure to contact me if you want to delve deeper into the topic of critical consumption. I am always happy to discuss new ideas!</p>
+                <p className="resources-section-content">Interested in learning even more about the current state of coding education? I am always happy to discuss new ideas about the future of coding education. Feel free to reach out to me at the link below!</p>
                 <a href = "mailto: mriesgo@sas.upenn.edu" className="resource-link">mriesgo@sas.upenn.edu</a>
             </div>
         </div>
