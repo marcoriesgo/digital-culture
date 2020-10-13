@@ -7,16 +7,13 @@ import codingpic2 from "../img/codingpic2.png";
 import codingpic3 from "../img/codingpic3.png";
 import codingpic4 from "../img/codingpic4.png";
 
+import codingPodcast from "../img/codingPodcast.mp3"
 
 class Unit3 extends Component {
   render() {
     return (
       <div className="unit-parent-container-one">
-        
-
-
-
-
+    
 
         <div className="unit1-project-right-container">
             <div className="project-right-heading">
@@ -27,13 +24,36 @@ class Unit3 extends Component {
             <div className="project-right-content-container">
             <div className="content-box-container">
                     <h2 className="project-content-header">Podcast</h2>
-                    <h3 className="coggle-intro">Software Development Education in The United States</h3>
-                    <h3 className="coggle-intro">Hosted by Marco Riesgo Almonacid</h3>
+                    <audio controls>
+                      <source src={codingPodcast} type="audio/mpeg"/>
+                    </audio>
             </div>
             <div className="content-box-container">
                     <h2 className="project-content-header">Podcast Transcript</h2>
-                    <h3 className="coggle-intro">Software Development Education in The United States</h3>
-                    <h3 className="coggle-intro">Transcript written by Marco Riesgo</h3>
+                    <p className="personal-reflection-content">
+                        Hello everyone and welcome to this podcast. In this episode, we are going to be exploring the topic of participatory futures and making changes. Throughout unit three, we spent time learning about Octavia Butler’s piece “The Book of Martha”. In her story, Martha is given the power to realize one fundamental change to humanity. Through this work, Butler explores the topic of consequences and places great emphasis on choosing what we want carefully.
+                    </p>
+                    <p className="personal-reflection-content">
+                        If I could change one thing about humanity that would ensure that we all survive and thrive in the future, I would have countries make software development education in public education systems a requirement. This is because of the incredibly large amount of new technologies that are currently coming out and will become the professional tools of future generations. I believe that making this change in education systems will completely change the ways in which students are prepared for the professional environment and will empower many more students to innovate and speak their voice.
+                    </p>
+                    <p className="personal-reflection-content">
+                        In order to realize this vision, I believe that every country with the economic ability to do so must help young students begin learning software technologies and development since primary school. Additionally, companies and governments would have to work together to determine the best technologies to teach children and agree on how to implement it into the classroom. Perhaps every student should be given a device to help them learn and develop their skills. 
+                    </p>
+                    <p className="personal-reflection-content">
+                        Currently, thousands of new technological tools are being released for people to learn how to code. In fact, a transition into software development education has never been easier. Every day, new tools are being developed for students to learn to code. Additionally, I imagine that in the future, more and more technological tools will be released for students to learn. I believe that this wide variety of technological tools will help realize this change by enabling schools to make a smooth transition in the coming years. 
+                    </p>
+                    <p className="personal-reflection-content">
+                        Up to this point, the available research and experts in the field are extremely in favor of making software development a requirement in schools. Below, you will find articles that give great insight into this potential change. Evidently a transition into more coding education would be an expensive and time-consuming measure to take. As Stephen Merrill explains in his article “The Future of Coding in Schools”, this change will require many current educational structural barriers to be broken down. Because of this available research, I believe that countries would need to adopt a non-linear and iterative emergence strategy as described by Adrienne Maree Brown. This new adoption would require schools to continually adopt new processes and repeatedly iterate.   
+                    </p>
+                    <p className="personal-reflection-content">
+                        I have been learning software development for a long time and currently work at a software company that helps clients implement new technologies into their applications. I started learning about software at a very young age, and I think that this knowledge has paved a very unique path for me and shaped my passions. I continue to help clients with technology needs every day and hope that in the future I can help young students continue learning code.  
+                    </p>
+                    <p className="personal-reflection-content">
+                        As with all new changes, challenges will come. I believe that requiring coding education in schools would give more students to speak their voice through technological innovation. In order to grapple with the potential challenges to this vision, education systems will have to work very hard to figure out new ways in which to teach students coding skills. I believe current coding education organizations will play a major role in helping education systems deal with the challenges that could arise along the way. 
+                    </p>
+                    <p className="personal-reflection-content">
+                        Now, I invite you to read more about coding education through the suggested readings linked on this page. I hope that this may spark a new interest and perhaps even a new positive obsession to pursue. I have also linked several great organizations that can help you develop your software skills in the reading resources section. I hope this encourages you to learn new skills and think deeper about participatory futures.
+                    </p>
             </div>
             <div className="content-box-container">
                 <h2 className="project-content-header">Suggested Readings</h2>
