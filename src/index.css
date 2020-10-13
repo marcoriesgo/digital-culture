@@ -299,3 +299,12 @@ li {
 .strategyLink {
   text-decoration: underline;
 }
+
+.stats-link {
+  color: black;
+  text-decoration: underline;
+}
+
+.gap-video {
+  margin-left: 25%;
+}

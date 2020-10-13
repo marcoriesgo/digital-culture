@@ -36,8 +36,9 @@ class Unit2 extends Component {
             <div className="project-right-content-container">
             <div className="content-box-container">
                     <h2 className="project-content-header">Podcast</h2>
-                    <h3 className="coggle-intro">Achievement Gap in the United States Podcast.</h3>
-                    <h3 className="coggle-intro">Hosted by Marco Riesgo Almonacid</h3>
+                    <audio controls>
+
+                    </audio>
             </div>
             <div className="content-box-container">
                     <h2 className="project-content-header">Podcast Transcript</h2>
@@ -57,15 +58,15 @@ class Unit2 extends Component {
                       Now, I would like to dive deeper into my positive obsession of educational equity. I am going to be discussing the current state of United States education, comparing our system to other nations’ education systems, and exploring the topic of how to solve the achievement gap in education. I believe that the United States still has work to complete in their efforts to become a leading nation in education. 
                     </p>
                     <p className="personal-reflection-content">
-                      According to the <a href="https://edpolicy.stanford.edu/library/blog/295" target="_blank">Stanford Center for Opportunity</a>, currently, the United States has the highest child poverty rate of any industrialized country. This causes children from low-income backgrounds to suffer poorer performance, as they are unable to concentrate on their schoolwork. 
+                      According to the <a href="https://edpolicy.stanford.edu/library/blog/295" target="_blank" className="stats-link">Stanford Center for Opportunity</a>, currently, the United States has the highest child poverty rate of any industrialized country. This causes children from low-income backgrounds to suffer poorer performance, as they are unable to concentrate on their schoolwork. 
                     </p>
                     <p className="personal-reflection-content">
-                      Furthermore, according to the <a href="https://ncee.org/what-we-do/center-on-international-education-benchmarking/top-performing-countries/" target="_blank">National Center On Education</a>, the United States is not one of the Top 10 best performing education systems in the world, despite having the world’s largest economy. Other countries that perform better are countries including Canada, Finland, Japan, and China, which tops international rankings. 
+                      Furthermore, according to the <a href="https://ncee.org/what-we-do/center-on-international-education-benchmarking/top-performing-countries/" target="_blank" className="stats-link">National Center On Education</a>, the United States is not one of the Top 10 best performing education systems in the world, despite having the world’s largest economy. Other countries that perform better are countries including Canada, Finland, Japan, and China, which tops international rankings. 
                     </p>
                     <p className="personal-reflection-content">
                       Evidently, the United States is not doing a very good job at ensuring that all children in the country have equal opportunities to achieve educational success. In his TED speech, Anindya Kundu does a good job of painting the picture of what it is like for underserved communities to achieve in education. Additionally, Kundu explains the potential effects of becoming a more educationally active country. 
                     </p>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wRG5_-9eE4w?start=159" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="50%" height="auto" src="https://www.youtube.com/embed/wRG5_-9eE4w?start=159" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="gap-video"></iframe>
                     <p className="personal-reflection-content">
                       As Kundu explains, impoverished communities are unable to see their children have educational success. Because of this, the United States needs to put more funding into education. The students that the government invests in today will be the successful students of tomorrow. Additionally, by doing this, we will ensure that future generations grow up with a stronger sense of who they are and what their purpose is. Currently, China is catching up to become the strongest economy in the world, partly due to their investments in education. In order to help the United States, remain in the lead, we must concentrate on investing in our youth. 
                     </p>
