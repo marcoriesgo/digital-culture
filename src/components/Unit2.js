@@ -13,7 +13,7 @@ class Unit2 extends Component {
                 <h1 className="resources-title">Podcast Resources</h1>
 
                 <h2 className="resources-section-header">Topic</h2>
-                <p className="resources-section-content">In unit 2, we took some time to explore the concept of positive obsessions. In this podcast, I will be discussing my positive obsession with the United States' education system and its achievement gap, and will offer suggestions for how this problem could be solved.</p>
+                <p className="resources-section-content">In unit 2, we took some time to explore the concept of positive obsessions. In this podcast, I will be discussing my positive obsession of trying to narrow the achievement gap and discussing the current state of the United States' education system.</p>
                 <img src={educationImage} alt="Digital Culture" className="article-screenshot"/><br />
                 
                 <h2 className="resources-section-header">Coggle Mind Map</h2>
