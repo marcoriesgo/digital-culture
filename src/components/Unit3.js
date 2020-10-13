@@ -105,7 +105,7 @@ class Unit3 extends Component {
                 <a href="https://coggle.it/diagram/X1bGwr2x3ka7jkx7/t/capstone-project-map-critical-consumption/4cc0fcf3532e715c6cfc5e21090eb11f9324505bf7c111e7d61fce8f8e3544c8" target="_blank" className="resource-link">View Marco's Mind Map on Coggle</a>
                 
                 <h2 className="resources-section-header">Apps for Learning to Code </h2>
-                <p className="resources-section-content">If you are interested in learning to code, check out these awesome applications:</p>
+                <p className="resources-section-content">If you are interested in learning to code, check out these awesome applications. Maybe you will find your own new positive obsession!</p>
                 <ul>
                 <li>
                     <a href = "https://www.udacity.com/" target="_blank" className="app-link">Udacity</a> <br />
