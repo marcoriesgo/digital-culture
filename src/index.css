@@ -295,3 +295,7 @@ li {
   padding-left: 15px;
   text-decoration: underline;
 }
+
+.strategyLink {
+  text-decoration: underline;
+}
