@@ -2,11 +2,11 @@ import React, { Component } from "react";
 
 import article1 from "../img/article1.png";
 
-import supporting1 from "../img/supporting1.png";
-import supporting2 from "../img/supporting1.png";
+import codingpic1 from "../img/codingpic1.png";
+import codingpic2 from "../img/codingpic2.png";
+import codingpic3 from "../img/codingpic3.png";
+import codingpic4 from "../img/codingpic4.png";
 
-import contrast1 from "../img/contrast1.png";
-import contrast2 from "../img/contrast2.png";
 
 class Unit3 extends Component {
   render() {
@@ -40,27 +40,27 @@ class Unit3 extends Component {
                 <div className="readings-top">
                     <h2>Supporting Articles</h2>
                     <div className="article-one">
-                        <a href="https://fortune.com/2016/02/03/nicholas-carr-internet/" target="_blank" className="article-link">The Internet Makes Us Stupid and Here's Why</a> <br />
-                        <p className="author-name">By Kabir Sehgal</p>
-                        <img src={supporting1} alt="Digital Culture" className="readings-screenshot"/>
+                        <a href="https://www.edutopia.org/article/future-coding-schools" target="_blank" className="article-link">The Future of Coding in Schools</a> <br />
+                        <p className="author-name">By Stephen Merrill</p>
+                        <img src={codingpic1} alt="Digital Culture" className="readings-screenshot"/>
                     </div>
                     <div className="article-two">
-                        <a href="https://hightechforum.org/the-internet-is-making-us-stupid/" target="_blank" className="article-link">The Internet is Making Us Stupid</a> <br />
-                        <p className="author-name">By Richard Bennett</p>
-                        <img src={supporting2} alt="Digital Culture" className="readings-screenshot"/>
+                        <a href="https://time.com/2881453/programming-in-schools/" target="_blank" className="article-link">Why Basic Coding Should Be a Mandatory Class in Junior High</a> <br />
+                        <p className="author-name">By Tim Bajarin</p>
+                        <img src={codingpic2} alt="Digital Culture" className="readings-screenshot"/>
                     </div>
                 </div>
                 <div className="readings-bottom">
-                    <h2>Contrasting Articles</h2>
+                    <h2>Why Schools Have Not Yet Adapted</h2>
                     <div className="article-one">
-                        <a href="https://www.discovermagazine.com/mind/how-google-is-making-us-smarter" target="_blank" className="article-link">How Google Is Making Us Smarter</a> <br />
-                        <p className="author-name">By Carl Zimmer</p>
-                        <img src={contrast1} alt="Digital Culture" className="readings-screenshot"/>
+                        <a href="https://www.edsurge.com/news/2018-12-15-3-reasons-students-aren-t-into-computer-science-yet" target="_blank" className="article-link">3 Reasons Students Aren’t Into Computer Science—Yet</a> <br />
+                        <p className="author-name">By Jaime Perez</p>
+                        <img src={codingpic3} alt="Digital Culture" className="readings-screenshot"/>
                     </div>
                     <div className="article-two">
-                        <a href="https://www.pbs.org/newshour/science/will-google-make-us-smarter-internet-experts-say-yes-in-some-ways" target="_blank" className="article-link">Will Google Make Us Smarter? Internet Experts Say Yes, but With Caveats</a> <br />
-                        <p className="author-name">By an anonymous author.</p>
-                        <img src={contrast2} alt="Digital Culture" className="readings-screenshot"/>
+                        <a href="https://www.seattletimes.com/opinion/why-we-need-to-teach-all-students-computer-science-skills/" target="_blank" className="article-link">Why doesn’t every school offer computer science classes?</a> <br />
+                        <p className="author-name">By Hadi Partovi</p>
+                        <img src={codingpic4} alt="Digital Culture" className="readings-screenshot"/>
                     </div>
                     </div>
                 </div>
