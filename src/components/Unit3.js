@@ -83,11 +83,12 @@ class Unit3 extends Component {
                 
                 <h2 className="resources-section-header">Questions to Consider</h2>
                 <ul>
-                    <li>Why is it important for us to understand the digital tools we use online and the effect they have on our well-being? </li>
-                    <li>How do we evaluate the quality of the content that we consume online?</li>
-                    <li>How is technology changing the ways in which we communicate with each other and how is it impacting those social interactions?</li>
-                    <li>What are some ways in which educators can incorporate technology into their courses while ensuring the high  standard of the content students are exposed to?</li>
-                    <li>How can we ensure that future generations grow up with the ability to read carefully and absorb quality information?</li>
+                    <li>Why is it important for us to evaluate current software development education in American school systems? </li>
+                    <li>In what ways can coding education encourage minority inclusion and give a voice to the disadvantaged?</li>
+                    <li>Why is it important for future gnerations to have a great foundation in technological tools as they become adults?</li>
+                    <li>In what ways would making coding education a school rquirement positively affect society? What would the negative effects be?</li>
+                    <li>How will current and future technology enable us to make a smooth transition into software deevelopment education?</li>
+                    <li>In what ways can governments ensure that corporations do not take advantage of an educational transition into further technology education?</li>
                 </ul>
                 
                 <h2 className="resources-section-header">Coggle Mind Map</h2>
