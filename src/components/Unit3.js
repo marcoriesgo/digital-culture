@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import article1 from "../img/article1.png";
+import codeImage from "../img/codeimage.jpg";
 
 import codingpic1 from "../img/codingpic1.png";
 import codingpic2 from "../img/codingpic2.png";
@@ -77,9 +77,8 @@ class Unit3 extends Component {
             <div className="resources-content-container">
                 <h1 className="resources-title">Reading Resources</h1>
                 <h2 className="resources-section-header">Topic</h2>
-                <p className="resources-section-content">In unit 3, we took some time to explore the topic of critical digital consumption. In Nicholas Carr's article "Is Google Making Us Stupid?" in <span style={{fontStyle: 'italic'}}>The Atlantic</span>, he writes about the ways in which new technologies are affecting people's consumption of new information. In this project, we reflect upon Carr's ideas, present supporting and contrasting evidence, and draw a conclusion about how we can make critical consumption benefit us online.</p>
-                <img src={article1} alt="Digital Culture" className="article-screenshot"/><br />
-                <a href="https://www.theatlantic.com/magazine/archive/2008/07/is-google-making-us-stupid/306868/" target="_blank" className="resource-link">Click here to read the article.</a>
+                <p className="resources-section-content">In unit 3, we took some time to explore the conceepts of making change, active participation in digital social change, and inclusion of minorities. For this participatory futures project, I will be exploring the one thing that I would change about humanity to ensure our future thriving. Therefore, I propose that world countries, specifically the United States, begins to require their school systems to teach software development. To clearly share my vision, I will be exploring the technology that could help us realize this change, the potential consequences, and the strategy for implementing this change. Feel free to explore more resources available on this page and visit all the resources in order to learn more about software development in schools. Hope you enjoy!</p>
+                <img src={codeImage} alt="Digital Culture" className="article-screenshot"/><br />
                 
                 <h2 className="resources-section-header">The Book of Martha</h2>
                 <p className="resources-section-content">In <span style={{fontStyle: 'italic'}}><a href = "http://web.archive.org/web/20070312043050/www.scifi.com/scifiction/originals/originals_archive/butler2/butler21.html" target="_blank" className="strategyLink">The Book of Martha</a></span>, Octavia Butler details the challenges faced when trying to build a perfect world. In particular, Butler places great emphasis on the nature of actions and consequences. As the passage explains, everything we do has positive and negative consequences. Therefore, it is very important to explore both the negative and positive consequences of implementing coding education in American school systems. Additionally, it is important to explore the reasons why many schools have not yet adapted to development education. Perhaps, more software education would suppress other interests children may have. I invite you to think about your own potential consequences from realizing my proposal of rquiring schools to teach coding. As you explore the consequences this could have on society, refer to the reflection questions below to guide you.</p>                
