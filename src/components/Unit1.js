@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import article1 from "../img/article1.png";
 
 import supporting1 from "../img/supporting1.png";
-import supporting2 from "../img/supporting1.png";
+import supporting2 from "../img/supporting2.png";
 
 import contrast1 from "../img/contrast1.png";
 import contrast2 from "../img/contrast2.png";
