@@ -16,7 +16,7 @@ class Unit3 extends Component {
             <div className="resources-content-container">
                 <h1 className="resources-title">Reading Resources</h1>
                 <h2 className="resources-section-header">Topic</h2>
-                <p className="resources-section-content">In this unit, we took some time to explore the topic of critical digital consumption. In Nicholas Carr's article "Is Google Making Us Stupid?" in <span style={{fontStyle: 'italic'}}>The Atlantic</span>, he writes about the ways in which new technologies are affecting people's consumption of new information. In this project, we reflect upon Carr's ideas, present supporting and contrasting evidence, and draw a conclusion about how we can make critical consumption benefit us online.</p>
+                <p className="resources-section-content">In unit 3, we took some time to explore the topic of critical digital consumption. In Nicholas Carr's article "Is Google Making Us Stupid?" in <span style={{fontStyle: 'italic'}}>The Atlantic</span>, he writes about the ways in which new technologies are affecting people's consumption of new information. In this project, we reflect upon Carr's ideas, present supporting and contrasting evidence, and draw a conclusion about how we can make critical consumption benefit us online.</p>
                 <img src={article1} alt="Digital Culture" className="article-screenshot"/><br />
                 <a href="https://www.theatlantic.com/magazine/archive/2008/07/is-google-making-us-stupid/306868/" target="_blank" className="resource-link">Click here to read the article.</a>
                 
@@ -91,7 +91,7 @@ class Unit3 extends Component {
                 
                 <div className="content-box-container">
                     <h2 className="project-content-header">Coggle Mind Map</h2>
-                    <h3 className="coggle-intro">The following is a the Coggle Mind Map I used to guide me in the process of exploring the impact of digital consumption. Take a look and feel free to use it as a starting point for future research!</h3>
+                    <h3 className="coggle-intro">The following is the Coggle Mind Map I used to guide me in the process of exploring the current state of coding education in the United States. Navigate to "Capstone Project 3 - Participatory Futures" to use it as a starting point for future research!</h3>
                     <iframe width='75%' height='75%' src='https://embed.coggle.it/diagram/X1bGwr2x3ka7jkx7/4cc0fcf3532e715c6cfc5e21090eb11f9324505bf7c111e7d61fce8f8e3544c8' frameborder='0' className="coggle-frame" allowfullscreen></iframe>
                 </div>
             </div>
