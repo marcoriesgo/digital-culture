@@ -35,6 +35,7 @@ class Unit4 extends Component {
               <h3 className="project-date">October 27, 2020</h3>
           </div>
         <div className="project-right-content-container">
+          
           <div className="content-box-container">
                   <h2 className="project-content-header">Presentation with Marco</h2>
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/qnq_TfdSPpo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -54,17 +55,16 @@ class Unit4 extends Component {
                   On the surface, it seems like Tesla’s competitors have the technology, employees, and economic resources to produce an electric vehicle that could adequately compete with Tesla’s products. However, no other startup has been capable of doing this. From reading the comments posted on Rivian’s product presentation, I learned that people wanted the company to implement a network of chargers similar to Tesla. Tesla’s current supercharger network ensures that Tesla owners will almost always have a “Supercharger” nearby for them to recharge their car in a very short time. Tesla figured out early on that in order to break through people’s fear of running out of charge on long drives, the company had to make sure that customers would always have a charger nearby. Therefore, throughout the years, Tesla has spent a lot of efforts on establishing a good network of Superchargers all around the world.                   
                   </p>
                   <p className="personal-reflection-content">
-                  Ultimately, it has been Tesla’s emphasis on the availability of their chargers that has enabled the company to thrive beyond its competitors. From this point, it will be very interesting to see how new electric vehicle companies adapt their product lines to offer more charging stations around the world. I think that the creation of this infrastructure will enable the car industry to make a much smoother transition into the production of electric vehicles.                  </p>
+                  Ultimately, it has been Tesla’s emphasis on the availability of their chargers that has enabled the company to thrive beyond its competitors. From this point, it will be very interesting to see how new electric vehicle companies adapt their product lines to offer more charging stations around the world. I think that the creation of this infrastructure will enable the car industry to make a much smoother transition into the production of electric vehicles.
+                  </p>
                   <p className="personal-reflection-content">
                   Throughout my exploration of these companies, I used YouTube’s comments section as the guide for me to learn about what people like about the companies. I also spent time reading about the companies’ products on their website, which is usually the common medium for companies to show their products.                   
                   </p>
                   <p className="personal-reflection-content">
                   In this process, it was quite fun to see how YouTube’s comments section can inspire learning further about topics. I think using this was a great way for me to explore online communication, corporate communications, and other topics we have talked about in the course. This work allowed me to really put the things we have talked about to use in learning new things online and exploring different mediums. I definitely suggest that other students try it out and go on the comments section on YouTube videos/ It seems like it is an excellent way for people to learn more about the topic. In what ways do you use YouTube comments to help you learn more about topics?
                   </p>   
-            </div>
           </div>
       </div>
-      
     </div>
     ;
   }
