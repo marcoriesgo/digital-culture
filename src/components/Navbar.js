@@ -14,16 +14,16 @@ class Navbar extends Component {
                 <h2 className="navbar-link">Home</h2>
             </Link>
             <Link to="/unit1">
-                <h2 className="navbar-link">Unit 1</h2>
+                <h2 className="navbar-link">Critical Consumption</h2>
             </Link>
             <Link to="/unit2">
-                <h2 className="navbar-link">Unit 2</h2>
+                <h2 className="navbar-link">Positive Obsession</h2>
             </Link>
             <Link to="/unit3">
-                <h2 className="navbar-link">Unit 3</h2>
+                <h2 className="navbar-link">Coding Education</h2>
             </Link>
             <Link to="/unit4">
-                <h2 className="navbar-link">Unit 4</h2>
+                <h2 className="navbar-link">Serendipiy</h2>
             </Link>
         </div>
       </div>
