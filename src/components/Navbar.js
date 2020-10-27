@@ -20,10 +20,10 @@ class Navbar extends Component {
                 <h2 className="navbar-link">Positive Obsession</h2>
             </Link>
             <Link to="/unit3">
-                <h2 className="navbar-link">Coding Education</h2>
+                <h2 className="navbar-link">Participatory Future</h2>
             </Link>
             <Link to="/unit4">
-                <h2 className="navbar-link">Serendipiy</h2>
+                <h2 className="navbar-link">Serendipity</h2>
             </Link>
         </div>
       </div>
