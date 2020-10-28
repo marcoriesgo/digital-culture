@@ -143,6 +143,7 @@ a:hover {
 
 .right-home-top-container {
   display: inline-block;
+  padding-top: 80px;
   
 }
 
@@ -292,6 +293,17 @@ li {
   border-radius: 15px;
   margin-bottom: 30px;
   padding-bottom: 20px;
+}
+
+.content-box-container-home {
+  border: 3px solid rgba(6,57,84,1);
+  border-radius: 15px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  padding-right: 10%;
+  padding-left: 10%;
+  background-color: white;
+  margin-top: 20px;
 }
 
 
