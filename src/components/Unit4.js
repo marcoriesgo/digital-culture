@@ -66,7 +66,9 @@ class Unit4 extends Component {
           </div>
       </div>
     </div>
-    ;
+    </div>
+    );
   }
 }
+
 export default Unit4;
