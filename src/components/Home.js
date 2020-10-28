@@ -7,12 +7,16 @@ class Home extends Component {
     return (
       <div className="home">
         <div className="home-content-container">
-          <h1>Digital Literacy and Cultural Change</h1>
-          <h3>By Marco Riesgo</h3>
+ 
           <div className="home-image-container">
               <img src={poster} alt="Digital Culture" className="project-screenshot"/>
           </div>
           
+          <div className="right-home-top-container">
+            <h1>Digital Literacy and Cultural Change</h1>
+            <h3>By Marco Riesgo</h3>
+          </div>
+
         </div>
       </div>
     );

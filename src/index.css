@@ -141,6 +141,12 @@ a:hover {
   padding-top: 20px;
 }
 
+.right-home-top-container {
+  display: inline-block;
+  
+}
+
+
 .home-image-container {
   display: inline-block;
   vertical-align: top;
