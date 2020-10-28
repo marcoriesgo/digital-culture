@@ -9,7 +9,7 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
-        <div className="home-content-container">
+        <div className="home-content-container-letter">
  
           <div className="home-image-container">
               <img src={poster} alt="Digital Culture" className="project-screenshot"/>
